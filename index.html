@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <!-- Navigation Bar -->
     <section class="py-5">
         <nav class="bg-white px-2 sm:px-4 py-2.5">
             <div class="container flex flex-wrap justify-between items-center mx-auto">
@@ -82,7 +83,7 @@
         </nav>
 
     </section>
-
+    <!-- Carousal Banner -->
     <section class="px-48 py-5">
         <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
             <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -142,14 +143,14 @@
             </button>
         </div>
     </section>
-
+    <!-- Discover Our Plan Heading -->
     <section>
         <h5 class="text-center text-5xl font-semibold pb-5 pt-24">Discover Our Popular<br>Courses</h5>
         <p class="text-center pb-10">A comprehensive selection of management courses, training courses,<br>online
             degrees and
             many more!</p>
     </section>
-
+    <!-- Course List -->
     <section class="grid grid-cols-2 px-48 gap-6">
         <a href="#"
             class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100">
@@ -218,15 +219,15 @@
             </div>
         </a>
     </section>
-
+    <!-- See More Courses Button -->
     <div class="text-center pt-16">
         <a class="text-xl px-8 py-3 text-white bg-blue-500 rounded-md font-semibold hover:bg-white hover:text-blue-500 hover:border-2 border-blue-500"
             href="">See More Courses</a>
     </div>
-
+    <!-- Accordion List -->
     <section class="px-96 pt-16">
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item bg-white border border-gray-200 mb-5">
+            <div class="accordion-item bg-white mb-5">
                 <h2 class="accordion-header mb-0" id="headingOne">
                     <button class="
                   accordion-button
@@ -236,31 +237,29 @@
                   w-full
                   py-4
                   px-5
+                  font-bold
                   text-base text-gray-800 text-left
                   bg-white
-                  
+                  border-2
                   rounded-br-md
                   rounded-bl-md
                   transition
                   focus:outline-none
                 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                         aria-controls="collapseOne">
-                        Accordion Item #1
+                        What are the differences between Flexbox and Grid?
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body py-4 px-5">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default,
-                        until the collapse plugin adds the appropriate classes that we use to style each
-                        element. These classes control the overall appearance, as well as the showing and
-                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                        our default variables. It's also worth noting that just about any HTML can go within
-                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                        CSS Grid and Flexbox are layout models that share similarities and can be used together. The key
+                        difference is that <strong>CSS Grid can be used to create two-dimensional layouts, while Flexbox
+                            can only be used to create one-dimensional layouts.</strong>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item bg-white border border-gray-200 mb-5">
+            <div class="accordion-item bg-white border-gray-200 mb-5">
                 <h2 class="accordion-header mb-0" id="headingTwo">
                     <button class="
                   accordion-button
@@ -274,27 +273,27 @@
                   text-base text-gray-800 text-left
                   bg-white
                   border-2
-                  rounded
+                  rounded-tr-md
+                  rounded-tl-md
+                  rounded-br-md
+                  rounded-bl-md
                   transition
                   focus:outline-none
                 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                         aria-controls="collapseTwo">
-                        Accordion Item #2
+                        What are the differences between Bootstrap and Tailwind?
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body py-4 px-5">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                        until the collapse plugin adds the appropriate classes that we use to style each
-                        element. These classes control the overall appearance, as well as the showing and
-                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                        our default variables. It's also worth noting that just about any HTML can go within
-                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                        The main difference between Bootstrap and Tailwind is that Bootstrap pre-built components that
+                        provide a responsive UI (user interface) kit. On the other hand, Tailwind comes with predesigned
+                        widgets that facilitate web developers to design a website from scratch.
                     </div>
                 </div>
             </div>
-            <div class="accordion-item bg-white border border-gray-200 ">
+            <div class="accordion-item bg-white rounded-lg border-gray-200 mb-5">
                 <h2 class="accordion-header mb-0" id="headingThree">
                     <button class="
                   accordion-button
@@ -309,23 +308,59 @@
                   bg-white
                   border-separate
                   border-2
-                  rounded-none
+                  rounded-tr-md
+                  rounded-tl-md
+                  rounded-br-md
+                  rounded-bl-md
                   transition
                   focus:outline-none
                 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                         aria-controls="collapseThree">
-                        Accordion Item #3
+                        Whis is Cascading Style Sheet (CSS) Box Model?
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body py-4 px-5">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                        until the collapse plugin adds the appropriate classes that we use to style each
-                        element. These classes control the overall appearance, as well as the showing and
-                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                        our default variables. It's also worth noting that just about any HTML can go within
-                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                        The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                        margins, borders, padding, and the actual content.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white rounded-lg border-gray-200 ">
+                <h2 class="accordion-header mb-0" id="headingFour">
+                    <button class="
+                  accordion-button
+                  collapsed
+                  relative
+                  flex
+                  items-center
+                  w-full
+                  py-4
+                  px-5
+                  text-base text-gray-800 text-left
+                  bg-white
+                  border-separate
+                  border-2
+                  rounded-tr-md
+                  rounded-tl-md
+                  rounded-br-md
+                  rounded-bl-md
+                  transition
+                  focus:outline-none
+                " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                        aria-controls="collapseFour">
+                        Whis is a Semantic Tag?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body py-4 px-5">
+                        The HTML semantics refers to <strong>the tags that provide meaning to an HTML page rather than
+                            just
+                            presentation.</strong> It makes HTML more comprehensible by better defining the different
+                        sections and
+                        layout of web pages.
                     </div>
                 </div>
             </div>
